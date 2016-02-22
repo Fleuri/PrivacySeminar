@@ -1,0 +1,49 @@
+\begin{thebibliography}{1}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {History}
+\btxnamefont {\btxlastnamefont {Bellavista}, P.}, \btxnamefont
+  {\btxlastnamefont {Kupper}, A.}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Helal}, S.}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Location-based services: Back to the
+  future}{Location-Based Services: Back to the Future}}.
+\newblock \btxjournalfont {Pervasive Computing, IEEE}, 7(2):85--89,
+  \btxprintmonthyear{.}{April}{2008}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1536-1268}}}.
+
+\bibitem {Friedland2010}
+\btxnamefont {\btxlastnamefont {Friedland}, Gerald} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Sommer}, Robin}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Cybercasing the joint: On the privacy implications of
+  geo-tagging}{Cybercasing the Joint: On the Privacy Implications of
+  Geo-tagging}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 5th USENIX
+  Conference on Hot Topics in Security}, HotSec'10, \btxpageslong {}\ 1--8,
+  Berkeley, CA, USA, 2010. \btxpublisherfont {USENIX Association}.
+\newblock {\latintext
+  \btxurlfont{http://dl.acm.org/citation.cfm?id=1924931.1924933}}.
+
+\bibitem {LocationPrivacy}
+\btxnamefont {\btxlastnamefont {Vicente}, C.R.}, \btxnamefont {\btxlastnamefont
+  {Freni}, D.}, \btxnamefont {\btxlastnamefont {Bettini}, C.}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {\btxlastnamefont {Jensen},
+  Christian\btxfnamespacelong S.}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Location-related privacy in geo-social
+  networks}{Location-Related Privacy in Geo-Social Networks}}.
+\newblock \btxjournalfont {Internet Computing, IEEE}, 15(3):20--27,
+  \btxprintmonthyear{.}{May}{2011}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1089-7801}}}.
+
+\end{thebibliography}
