@@ -35,6 +35,21 @@
 \newblock {\latintext
   \btxurlfont{http://dl.acm.org/citation.cfm?id=1924931.1924933}}.
 
+\bibitem {Ghinita2008}
+\btxnamefont {\btxlastnamefont {Ghinita}, Gabriel}, \btxnamefont
+  {\btxlastnamefont {Kalnis}, Panos}, \btxnamefont {\btxlastnamefont
+  {Khoshgozaran}, Ali}, \btxnamefont {\btxlastnamefont {Shahabi},
+  Cyrus}\btxandcomma {} \btxandlong {}\ \btxnamefont {\btxlastnamefont {Tan},
+  Kian\btxfnamespacelong Lee}\btxauthorcolon\ \btxtitlefont {\btxifchangecase
+  {Private queries in location based services: Anonymizers are not
+  necessary}{Private Queries in Location Based Services: Anonymizers Are Not
+  Necessary}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 2008 ACM SIGMOD
+  International Conference on Management of Data}, SIGMOD '08, \btxpageslong
+  {}\ 121--132, New York, NY, USA, 2008. \btxpublisherfont {ACM}\ifbtxprintISBN
+  {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-102-6}}}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1376616.1376631}}.
+
 \bibitem {LocationPrivacy}
 \btxnamefont {\btxlastnamefont {Vicente}, C.R.}, \btxnamefont {\btxlastnamefont
   {Freni}, D.}, \btxnamefont {\btxlastnamefont {Bettini}, C.}\btxandcomma {}

@@ -1,6 +1,7 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {section}{\numberline {2}Threats in Location-based Services}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Location Privacy}{2}{subsection.2.1}
 \contentsline {section}{\numberline {3}Techniques for countering the privacy threats}{2}{section.3}
 \contentsline {section}{\numberline {4}Evaluation of the techniques}{2}{section.4}
 \contentsline {section}{Sources}{2}{section*.2}
