@@ -1,0 +1,64 @@
+\begin{thebibliography}{1}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {History}
+\btxnamefont {\btxlastnamefont {Bellavista}, P.}, \btxnamefont
+  {\btxlastnamefont {Kupper}, A.}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Helal}, S.}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Location-based services: Back to the
+  future}{Location-Based Services: Back to the Future}}.
+\newblock \btxjournalfont {Pervasive Computing, IEEE}, 7(2):85--89,
+  \btxprintmonthyear{.}{April}{2008}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1536-1268}}}.
+
+\bibitem {Friedland2010}
+\btxnamefont {\btxlastnamefont {Friedland}, Gerald} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Sommer}, Robin}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {Cybercasing the joint: On the privacy implications of
+  geo-tagging}{Cybercasing the Joint: On the Privacy Implications of
+  Geo-tagging}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 5th USENIX
+  Conference on Hot Topics in Security}, HotSec'10, \btxpageslong {}\ 1--8,
+  Berkeley, CA, USA, 2010. \btxpublisherfont {USENIX Association}.
+\newblock {\latintext
+  \btxurlfont{http://dl.acm.org/citation.cfm?id=1924931.1924933}}.
+
+\bibitem {Ghinita2008}
+\btxnamefont {\btxlastnamefont {Ghinita}, Gabriel}, \btxnamefont
+  {\btxlastnamefont {Kalnis}, Panos}, \btxnamefont {\btxlastnamefont
+  {Khoshgozaran}, Ali}, \btxnamefont {\btxlastnamefont {Shahabi},
+  Cyrus}\btxandcomma {} \btxandlong {}\ \btxnamefont {\btxlastnamefont {Tan},
+  Kian\btxfnamespacelong Lee}\btxauthorcolon\ \btxtitlefont {\btxifchangecase
+  {Private queries in location based services: Anonymizers are not
+  necessary}{Private Queries in Location Based Services: Anonymizers Are Not
+  Necessary}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 2008 ACM SIGMOD
+  International Conference on Management of Data}, SIGMOD '08, \btxpageslong
+  {}\ 121--132, New York, NY, USA, 2008. \btxpublisherfont {ACM}\ifbtxprintISBN
+  {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-102-6}}}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1376616.1376631}}.
+
+\bibitem {LocationPrivacy}
+\btxnamefont {\btxlastnamefont {Vicente}, C.R.}, \btxnamefont {\btxlastnamefont
+  {Freni}, D.}, \btxnamefont {\btxlastnamefont {Bettini}, C.}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {\btxlastnamefont {Jensen},
+  Christian\btxfnamespacelong S.}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Location-related privacy in geo-social
+  networks}{Location-Related Privacy in Geo-Social Networks}}.
+\newblock \btxjournalfont {Internet Computing, IEEE}, 15(3):20--27,
+  \btxprintmonthyear{.}{May}{2011}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1089-7801}}}.
+
+\end{thebibliography}
