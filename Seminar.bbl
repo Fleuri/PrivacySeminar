@@ -50,6 +50,16 @@
   {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-102-6}}}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1376616.1376631}}.
 
+\bibitem {Sweeney:2002:KAM:774544.774552}
+\btxnamefont {\btxlastnamefont {Sweeney}, Latanya}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {K-anonymity: A model for protecting
+  privacy}{K-anonymity: A Model for Protecting Privacy}}.
+\newblock \btxjournalfont {Int. J. Uncertain. Fuzziness Knowl.-Based Syst.},
+  10(5):557--570, \btxprintmonthyear{.}{10}{2002}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0218-4885}}}.
+\newblock {\latintext
+  \btxurlfont{http://dx.doi.org/10.1142/S0218488502001648}}.
+
 \bibitem {LocationPrivacy}
 \btxnamefont {\btxlastnamefont {Vicente}, C.R.}, \btxnamefont {\btxlastnamefont
   {Freni}, D.}, \btxnamefont {\btxlastnamefont {Bettini}, C.}\btxandcomma {}

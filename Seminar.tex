@@ -31,6 +31,7 @@
 \usepackage{microtype}
 \usepackage{amsfonts,amsmath,amssymb,amsthm,booktabs,color,enumitem,graphicx}
 \usepackage[pdftex,hidelinks]{hyperref}
+\usepackage{setspace}
 
 % Automatically set the PDF metadata fields
 \makeatletter
@@ -109,6 +110,7 @@
 
 \begin{document}
 
+
 % --- Front matter ---
 
 \frontmatter      % roman page numbering for front matter
@@ -120,8 +122,11 @@
 
 % --- Main matter ---
 
-\mainmatter       % clear page, start arabic page numbering
+\mainmatter 
+\onehalfspacing
+      % clear page, start arabic page numbering
 \begin{abstract}
+
 
 Most of the social networking services today exploit location-based data in one way or another. Services like Facebook allow users to GeoTag their current location and tag themselves and their friends. In exchange the service can use the data to offer recommendations, news and so on.  While the users of the services are often aware that they are providing personal locational data, its pervasiveness and accuracy may come as a surprise and have serious repercussions when it comes to users' real-life privacy. A malicious actor such as a burglar could exploit the data a user provides to for example find out their street address and times when they are not home.
 This seminar paper reviews and evaluates several techniques used to preserve and protect users' privacy when using Location-based services. The goal for the techniques is to counter several threats Location-based Services face in such manner that users can still use said services without compromising their security.
@@ -144,6 +149,7 @@ A privacy threats in LBS can be defined as events during which an adversary can 
 \item \textbf{Absence Privacy} can be regarded as the other side of the location privacy. As the user publishes information about where they are at the given moment, they simultaneously expose explicitly where they are not. This threat factor also has a temporal dimension. For example, an adversary planning a break-in to a user's home can use the user's location information to estimate how long they will approximately be absent in order to avoid being caught while on the crime scene.
 \item \textbf{Co-location Privacy} refers to a privacy threat in which the adversary monitors multiple users' location information in order to associate other users with each other and different locations. For example, if user A GeoTags themselves and their friend user B to a location and simultaneously user C tags themselves and their friend user D at the same place, an adversary with the access to the information of only A and C can possibly violate the privacy of both B and D as being associated with someone on the other party at the given place can be considered sensitive by users.
 \item \textbf{Identity Privacy} refers to a scenario in which a user employs an obfuscated identity such as a pseudonym to protect their real identity but their identity can be revealed by associating them with a certain location. For example, the user is a 30-year-old male who is using a location-based dating service at his workplace. In the service he uses a pseudonym because he considers the fact that he is using the service to be embarrassing and thus sensitive. Now if he happened to be the only male of 30 years at his workplace and his supervisor would happen to check out the dating service and only search for users in their immediate vicinity, the supervisor would find out that the 30-year-old user is using the service during work hours effectively violating the user's privacy. In a scenario like this the pseudonym does naught to protect the users real identity.
+\item \textbf{Correlation Privacy} is sort of a special case when it comes to the nature of the privacy threat vectors. Correlation attack is possible when using query enlargement techniques such as k-anonymity \cite{Sweeney:2002:KAM:774544.774552}. For instance, consider a user using a LBS which takes advantage of the user's mobile device's satellite positioning capabilities and requires user to send their location information to the service periodically. To protect user's identity, the LBS employs k-anonymity by sending user's data among with many other users' in the vicinity so that the user cannot be singled out of the data set. However, the anonymisation is done case-by-case. As a result of this, if the user would send the data consecutively and an adversary would be able to access these queries, the user would be included in every data set and could be easily identified with a simple interjection of the data sets.
 \end{itemize}
 
 
@@ -178,5 +184,5 @@ A privacy threats in LBS can be defined as events during which an adversary can 
 % \section{Esimerkkiliite}
 
 \end{document}
-Status API Training Shop Blog About Pricing
+
 
