@@ -32,6 +32,10 @@
 \usepackage{amsfonts,amsmath,amssymb,amsthm,booktabs,color,enumitem,graphicx}
 \usepackage[pdftex,hidelinks]{hyperref}
 \usepackage{setspace}
+\usepackage{subfig}
+\usepackage{rotating,tabularx}
+\usepackage{float}
+\usepackage{rotating}
 
 % Automatically set the PDF metadata fields
 \makeatletter
@@ -157,7 +161,17 @@ Co-location Privacy refers to a privacy threat in which the adversary monitors m
 Identity Privacy refers to a scenario in which a user employs an obfuscated identity such as a pseudonym to protect their real identity but their identity can be revealed by associating them with a certain location. For example, the user is a 30-year-old male who is using a location-based dating service at his workplace. In the service he uses a pseudonym because he considers the fact that he is using the service to be embarrassing and thus sensitive. Now if he happened to be the only male of 30 years at his workplace and his supervisor would happen to check out the dating service and only search for users in their immediate vicinity, the supervisor would find out that the 30-year-old user is using the service during work hours effectively violating the user's privacy. In a scenario like this the pseudonym does naught to protect the users real identity.
 
 \subsection{Correlation Privacy}
-Correlation Privacy is sort of a special case when it comes to the nature of the privacy threat vectors. Correlation attack is possible when using query enlargement techniques such as k-anonymity \cite{Sweeney:2002:KAM:774544.774552}. For instance, consider a user using a LBS which takes advantage of the user's mobile device's satellite positioning capabilities and requires user to send their location information to the service periodically. To protect user's identity, the LBS employs k-anonymity by sending user's data among with many other users' in the vicinity so that the user cannot be singled out of the data set. However, the anonymisation is done case-by-case. As a result of this, if the user would send the data consecutively and an adversary would be able to access these queries, the user would be included in every data set and could be easily identified with a simple interjection of the data sets.
+Correlation Privacy is sort of a special case when it comes to the nature of the privacy threat vectors. Correlation attack is possible when using query enlargement techniques such as k-anonymity \cite{Sweeney:2002:KAM:774544.774552}. For instance, consider a user using a LBS which takes advantage of the user's mobile device's satellite positioning capabilities and requires user to send their location information to the service periodically. To protect user's identity, the LBS employs k-anonymity by sending user's data among with many other users' in the vicinity so that the user cannot be singled out of the data set. However, the anonymisation is done case-by-case. As a result of this, if the user would send the data consecutively and an adversary would be able to access these queries, the user would be included in every data set and could be easily identified with a simple interjection of the data sets. Figure ~\ref{fig:venn} illustrates, how multiple queries may possible identify the user present in all data sets.
+
+
+\begin{figure}[ht!]
+\centering
+\floatstyle{boxed}
+\includegraphics[width=90mm]{"venncorrelation".jpg}
+\hbox{\scriptsize Credit:\thinspace{\small\itshape Kiia Pitkänen, used with permission}}
+\caption{A user present in all data sets can be easily singled out with a simple interjection.}
+\label{fig:venn}
+\end{figure} 
 
 \section{Techniques for countering the privacy threats}
 
@@ -171,7 +185,7 @@ As there are possible privacy threats in LBS so is there techniques designed to 
 
 \subsection{Query Enlargement techniques}
 
-Query enlargement techniques rely on the notion, that when sending location data to the server, if included is other identities from the given location, the user sending the data can not be easily identified from among other identities. The idea was first formulated by Latanya Sweeney\citep{Friedland2010}2002:KAM:774544.774552} and in her paper it is applied to traditional databases. We assume that the database is made of rows of entries which consist of columns of attributes. The purpose of k-anonymity is to have a database with at least \textit{k} occurrences of a certain attribute. When someone queries the database with these attributes they will get at least \textit{k} entries which correspond to the given query, but the query can not be used to find a specific row. In this manner the data of a single user is safe but the dataset as a whole can still be used meaningfully for statistical study. To achieve a database which satisfies k-anonymity,
+Query enlargement techniques rely on the notion, that when sending location data to the server, if included is other identities from the given location, the user sending the data can not be easily identified from among other identities. The idea was first formulated by Latanya Sweeney\cite{Sweeney:2002:KAM:774544.774552} and in her paper it is applied to traditional databases. We assume that the database is made of rows of entries which consist of columns of attributes. The purpose of k-anonymity is to have a database with at least \textit{k} occurrences of a certain attribute. When someone queries the database with these attributes they will get at least \textit{k} entries which correspond to the given query, but the query can not be used to find a specific row. In this manner the data of a single user is safe but the dataset as a whole can still be used meaningfully for statistical study. To achieve a database which satisfies k-anonymity, one must first identify the so-called \textit{Quasi-identifiers} which are usually non-unique attributes in the data set but can be used together with other quasi-identifiers to form unique identifiers. To make sure that the Quasi-identifiers cannot be used to identify single entries, they either have to be \textit{suppressed}, made less distinguishable by replacing the value or part of it with a wild card notation, or \textit{generalised} so that multiple values fall to a certain broader category. 
 \section{Evaluation of the techniques}
 
 
