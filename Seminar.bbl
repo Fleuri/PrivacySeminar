@@ -50,6 +50,18 @@
   {, \mbox{\btxISBN~\btxISBNfont {978-1-60558-102-6}}}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1376616.1376631}}.
 
+\bibitem {Jensen2009}
+\btxnamefont {\btxlastnamefont {Jensen}, Christian\btxfnamespacelong S.},
+  \btxnamefont {\btxlastnamefont {Lu}, Hua}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Yiu}, Man\btxfnamespacelong
+  Lung}\btxauthorcolon\ \btxtitlefont {{Privacy in Location-Based Applications:
+  Research Issues and Emerging Trends}}, \btxchapterlong {}\ Location Privacy
+  Techniques in Client-Server Architectures, \btxpageslong {}\ 31--58.
+\newblock \btxpublisherfont {Springer Berlin Heidelberg}, Berlin, Heidelberg,
+  2009\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-3-642-03511-1}}}.
+\newblock {\latintext
+  \btxurlfont{http://dx.doi.org/10.1007/978-3-642-03511-1_2}}.
+
 \bibitem {Sweeney:2002:KAM:774544.774552}
 \btxnamefont {\btxlastnamefont {Sweeney}, Latanya}\btxauthorcolon\
   \btxjtitlefont {\btxifchangecase {K-anonymity: A model for protecting
