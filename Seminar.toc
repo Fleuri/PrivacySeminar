@@ -10,8 +10,9 @@
 \contentsline {section}{\numberline {3}Techniques for countering the privacy threats}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}Query Enlargement techniques}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Dummy-based techniques}{7}{subsection.3.2}
-\contentsline {section}{\numberline {4}Evaluation of the techniques}{8}{section.4}
-\contentsline {section}{Sources}{8}{section*.6}
+\contentsline {subsection}{\numberline {3.3}Progressive Retrieval Techniques}{8}{subsection.3.3}
+\contentsline {section}{\numberline {4}Evaluation of the techniques}{9}{section.4}
+\contentsline {section}{Sources}{9}{section*.7}
 \select@language {english}
 \select@language {english}
 \select@language {english}

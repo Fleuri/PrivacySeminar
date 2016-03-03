@@ -6,45 +6,45 @@ Database file #1: references-en.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in History
 Warning--can't use both author and editor fields in Jensen2009
-You've used 8 entries,
+You've used 10 entries,
             2783 wiz_defined-function locations,
-            712 strings with 8057 characters,
-and the built_in function-call counts, 3964 in all, are:
-= -- 361
-> -- 138
-< -- 5
-+ -- 55
-- -- 46
-* -- 463
-:= -- 544
-add.period$ -- 23
-call.type$ -- 8
-change.case$ -- 46
+            727 strings with 8655 characters,
+and the built_in function-call counts, 5137 in all, are:
+= -- 470
+> -- 179
+< -- 7
++ -- 71
+- -- 60
+* -- 587
+:= -- 696
+add.period$ -- 29
+call.type$ -- 10
+change.case$ -- 59
 chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 201
-empty$ -- 359
-format.name$ -- 76
-if$ -- 843
+cite$ -- 12
+duplicate$ -- 267
+empty$ -- 467
+format.name$ -- 99
+if$ -- 1106
 int.to.chr$ -- 0
-int.to.str$ -- 8
-missing$ -- 13
-newline$ -- 53
-num.names$ -- 16
-pop$ -- 51
+int.to.str$ -- 10
+missing$ -- 15
+newline$ -- 62
+num.names$ -- 20
+pop$ -- 70
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 50
 quote$ -- 0
-skip$ -- 109
+skip$ -- 148
 stack$ -- 0
-substring$ -- 204
-swap$ -- 95
-text.length$ -- 5
+substring$ -- 266
+swap$ -- 131
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
+type$ -- 38
 warning$ -- 2
-while$ -- 33
-width$ -- 9
-write$ -- 118
+while$ -- 42
+width$ -- 12
+write$ -- 144
 (There were 2 warnings)

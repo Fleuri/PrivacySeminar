@@ -36,6 +36,7 @@
 \usepackage{rotating,tabularx}
 \usepackage{float}
 \usepackage{rotating}
+\usepackage{textgreek}
 
 % Automatically set the PDF metadata fields
 \makeatletter
@@ -192,11 +193,26 @@ Query enlargement techniques rely on the notion, that when sending location data
 \label{fig:kanonymity2}
 \end{figure} 
 
-In LBS context k-anonymity for the users' identities is achieved by generalising the location in the user's query into the so-called \textit{Cloaking Range}. This is called \textit{Spatial Cloaking}. When user sends data to the server, along is sent data from other users so that the exact identity and location of the user cannot be distinguished among others \cite{Gedik2008}. To anonymise the location, an approach called \textit{Temporal Cloaking} can be used. In this approach the messages sent to the server are delayed until \textit{k} mobile users have visited the location and thus the temporal dimension of the data can not be used to identify the user.
+In LBS context k-anonymity for the users' identities is achieved by generalising the location in the user's query into the so-called \textit{Cloaking Range}. This is called \textit{Spatial Cloaking}. When user sends data to the server, along is sent data from other users so that the exact identity and location of the user cannot be distinguished among others \cite{Gedik2008}. To anonymise the location, an approach called \textit{Temporal Cloaking} can be used. In this approach the messages sent to the server are delayed until \textit{k} mobile users have visited the location and thus the temporal dimension of the data can not be used to identify the user as the users in the data set are not necessarily present at the time of the query.
 
 \subsection{Dummy-based techniques}
 
-Dummy-based techniques can be seen as the other side of the query expansion techniques. The general idea is to send the location data in a set made out of faked dummy locations, instead of multiple actual user identities and location data \cite{Kido2005}. The server then returns results for all of the locations, real and fakes as well, of which the user extracts the data associated with their real location. If this technique would be used on the case-by-case basis, the real location would be easily found as the fake location would seem to move erratically and irregularly whereas the real location would abide to real world constraints. To counter this Kido et al. provide two different ways to generate dummy locations. The first one called \textit{Moving in the neighbourhood} keeps the previous g iteration  
+Dummy-based techniques can be seen as the other side of the query expansion techniques. The general idea is to send the location data in a set made out of faked dummy locations, instead of multiple actual user identities and location data \cite{Kido2005}. The server then returns results for all of the locations, real and fakes as well, of which the user extracts the data associated with their real location. If this technique would be used on the case-by-case basis, the real location would be easily found as the fake location would seem to move erratically and irregularly whereas the real location would abide to real world constraints. To counter this Kido et al. provide two different ways to generate dummy locations \cite{Kido2005}. The first one called \textit{Moving in a Neighbourhood} (MN) keeps the previous generation iteration in memory and uses it to generate the next iteration so that the fake locations are moved in relation to their own previous position decreasing the possibility for an adversary to find out the real location by observing the movement patterns. The other algorithm called \textit{Moving in a Limited Neighbourhood} (MLN) requires that the user has access to other users' positional data. It works similarly to MN but if a new dummy would be created to an area which is highly congested by real users, it is generated again somewhere else instead. This is necessary because if the number of persons change in a certain area (moving etc.) there is a real possibility for the dummy location to stand out when compared to the movement of real locations \cite{Kido2005}. \par
+The caveat of these proposed generation algorithms is, that they do not take the physical area in to account. This is important, as the size of the area correlates with the difficulty for the adversary to locate  the user. Increasing the number of generated dummies does not explicitly guarantee the increase in the privacy region's size. \cite{Lu2008} propose an enhanced version of the MN and LMN algorithms which distribute the dummies pseudo-randomly to a circular or a grid-based structure so that the size of the privacy region can be controlled. Grid-based distribution can also be used to reduce data transfer costs as the grid configuration can be sent in lieu of the raw data of each real and dummy location.
+
+\subsection{Progressive Retrieval Techniques}
+
+Progressive Retrieval Techniques are based on the idea, that the user retrieves results incrementally from the server until certain criteria, such as the sought after value is guaranteed to be in the data set or the user simply terminating the query and possibly settling for an approximation or a 'good enough' result. In this manner the user can get a query results without exposing their real location. \par
+
+A prominent example of a progressive retrieval application is SpaceTwist \cite{SpaceTwist}. SpaceTwist is used to find \textit{k} nearest neighbours for the location \textit{q}. First the user generates a fake location \textit{q'} which is located somewhere in \textit{dist(q, q')} radius. The nearest neighbours are sought incrementally in a growing circle starting from the fake location. The algorithm maintains two numeric variables \textgamma \hspace{1mm}  and \texttau. \textgamma is used to
+
+\begin{figure}[ht!]
+\centering
+\floatstyle{boxed}
+\includegraphics[width=90mm]{"SpaceTwist".jpg}
+\caption{SpaceTwist search results after three iterations}
+\label{fig:SpaceTwist}
+\end{figure} 
 
 \section{Evaluation of the techniques}
 

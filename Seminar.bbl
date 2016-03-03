@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
   \providebibliographyfont{name}{}%
   \providebibliographyfont{lastname}{}%
   \providebibliographyfont{title}{\emph}%
@@ -84,6 +84,21 @@
   Proceedings. International Conference on}, \btxpageslong {}\ 88--97,
   \btxprintmonthyear{.}{July}{2005}{long}.
 
+\bibitem {Lu2008}
+\btxnamefont {\btxlastnamefont {Lu}, Hua}, \btxnamefont {\btxlastnamefont
+  {Jensen}, Christian\btxfnamespacelong S.}\btxandcomma {} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Yiu}, Man\btxfnamespacelong
+  Lung}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Pad: Privacy-area
+  aware, dummy-based location privacy in mobile services}{PAD: Privacy-area
+  Aware, Dummy-based Location Privacy in Mobile Services}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the Seventh ACM
+  International Workshop on Data Engineering for Wireless and Mobile Access},
+  MobiDE '08, \btxpageslong {}\ 16--23, New York, NY, USA, 2008.
+  \btxpublisherfont {ACM}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-1-60558-221-4}}}.
+\newblock {\latintext
+  \btxurlfont{http://doi.acm.org.libproxy.helsinki.fi/10.1145/1626536.1626540}}.
+
 \bibitem {Sweeney:2002:KAM:774544.774552}
 \btxnamefont {\btxlastnamefont {Sweeney}, Latanya}\btxauthorcolon\
   \btxjtitlefont {\btxifchangecase {K-anonymity: A model for protecting
@@ -104,5 +119,18 @@
 \newblock \btxjournalfont {Internet Computing, IEEE}, 15(3):20--27,
   \btxprintmonthyear{.}{May}{2011}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1089-7801}}}.
+
+\bibitem {SpaceTwist}
+\btxnamefont {\btxlastnamefont {Yiu}, M.\btxfnamespacelong L.}, \btxnamefont
+  {\btxlastnamefont {Jensen}, C.\btxfnamespacelong S.}, \btxnamefont
+  {\btxlastnamefont {Huang}, X.}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Lu}, H.}\btxauthorcolon\ \btxtitlefont {\btxifchangecase
+  {Spacetwist: Managing the trade-offs among location privacy, query
+  performance, and query accuracy in mobile services}{SpaceTwist: Managing the
+  Trade-Offs Among Location Privacy, Query Performance, and Query Accuracy in
+  Mobile Services}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Data Engineering, 2008. ICDE 2008. IEEE
+  24th International Conference on}, \btxpageslong {}\ 366--375,
+  \btxprintmonthyear{.}{April}{2008}{long}.
 
 \end{thebibliography}
