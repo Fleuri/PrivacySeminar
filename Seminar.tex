@@ -123,23 +123,20 @@
 \makeabstract     % abstract page
 
 \tableofcontents  % table of contents
-
+\listoffigures
 % --- Main matter ---
 
 \mainmatter 
 \onehalfspacing
       % clear page, start arabic page numbering
-\begin{abstract}
 
-
-Most of the social networking services today exploit location-based data in one way or another. Services like Facebook allow users to GeoTag their current location and tag themselves and their friends. In exchange the service can use the data to offer recommendations, news and so on.  While the users of the services are often aware that they are providing personal locational data, its pervasiveness and accuracy may come as a surprise and have serious repercussions when it comes to users' real-life privacy. A malicious actor such as a burglar could exploit the data a user provides to for example find out their street address and times when they are not home.
-This seminar paper reviews and evaluates several techniques used to preserve and protect users' privacy when using Location-based services. The goal for the techniques is to counter several threats Location-based Services face in such manner that users can still use said services without compromising their security.
-
-\end{abstract}
+\section*{Abstract}
+ \textit{Most of the social networking services today exploit location-based data in one way or another. Services like Facebook allow users to GeoTag their current location and tag themselves and their friends. In exchange the service can use the data to offer recommendations, news and so on.  While the users of the services are often aware that they are providing personal locational data, its pervasiveness and accuracy may come as a surprise and have serious repercussions when it comes to users' real-life privacy. A malicious actor such as a burglar could exploit the data a user provides to for example find out their street address and times when they are not home.
+This seminar paper reviews and evaluates several techniques used to preserve and protect users' privacy when using Location-based services. The goal for the techniques is to counter several threats Location-based Services face in such manner that users can still use said services without compromising their security.}
 
 \section{Introduction}
 
-Location-Based Services (LBS) are applications that operate on geographical or other location based data. Ooriginal LBSs can be traced back to mid-20th century, but what is understood by LBS today is tied to the mid-21th century emergence of G3 networks and hand-held devices with GPS capability \cite{History}. Many contemporary LSBs take a form as a part of a social networking applications such as Facebook, Foursquare and Instagram. There are several ways LBSs work. They can make use of users' mobile device's GPS and provide services based on users' whereabouts when requested or continually monitor users' location \cite{LocationPrivacy}. Some services allow users to \textit{check-in} to pre-determined venues or points of interest (POI) whereas other allow more exact location with the GPS data. This practice is commonly known as \textit{GeoTagging}. \par
+Location-Based Services (LBS) are applications that operate on geographical or other location based data. Original LBSs can be traced back to mid-20th century, but what is understood by LBS today is tied to the mid-21th century emergence of G3 networks and hand-held devices with GPS capability \cite{History}. Many contemporary LSBs take a form as a part of a social networking applications such as Facebook, Foursquare and Instagram. There are several ways LBSs work. They can make use of users' mobile device's GPS and provide services based on users' whereabouts when requested or continually monitor users' location \cite{LocationPrivacy}. Some services allow users to \textit{check-in} to pre-determined venues or points of interest (POI) whereas other allow more exact location with the GPS data. This practice is commonly known as \textit{GeoTagging}. \par
 LBSs do not come without security risks. By publishing their location on the internet exposes users to threats in the real world. A malicious agent, for example a burglar, could monitor one user's LBS usage and e.g. determine when the user is not at their residence. Using that information the attacker could orchestrate a break-in without the risk of being caught red-handed \cite{Friedland2010}. While many applications require user to explicitly publish their locational data, users also often do it unknowingly. For example many contemporary smart phones as well as digital cameras automatically embed metadata to photographs and it can contain privacy sensitive information such as coordinates and the time the photograph was taken \cite{Friedland2010}. In some cases the user themselves does not expose their location data explicitly, but with certain LBSs supporting \textit{User Tagging}, a user's acquaintance can expose the user without them having a say for it. Thus a user can be associated with places, people and other information they would rather keep private. \par
 The obvious privacy issues have been researched a lot and many techniques have been presented which address one or more possible privacy threats LBSs face \cite{LocationPrivacy}. These range from offering users options to rule how, where and when can their locational and identity data used to more technical solutions such as query enlargements and encryption-based techniques. Each of them have have their uses and shortcomings: They can only address a certain set of privacy threats and may come with pre-assumptions and computational costs. \par 
 In this paper we first review threats LBSs face in section 2. Then in section 3 we take a look at the techniques designed to address different kinds of privacy threats in LSBs. Section 4 compares and evaluates the techniques in respect of their intended use as well as other techniques. Section 5 will be the concluding part summarising the state of privacy in Location-Based Services and also shortly addressing the future trends of the field. 
@@ -163,7 +160,6 @@ Identity Privacy refers to a scenario in which a user employs an obfuscated iden
 \subsection{Correlation Privacy}
 Correlation Privacy is sort of a special case when it comes to the nature of the privacy threat vectors. Correlation attack is possible when using query enlargement techniques such as k-anonymity \cite{Sweeney:2002:KAM:774544.774552}. For instance, consider a user using a LBS which takes advantage of the user's mobile device's satellite positioning capabilities and requires user to send their location information to the service periodically. To protect user's identity, the LBS employs k-anonymity by sending user's data among with many other users' in the vicinity so that the user cannot be singled out of the data set. However, the anonymisation is done case-by-case. As a result of this, if the user would send the data consecutively and an adversary would be able to access these queries, the user would be included in every data set and could be easily identified with a simple interjection of the data sets. Figure ~\ref{fig:venn} illustrates, how multiple queries may possible identify the user present in all data sets.
 
-
 \begin{figure}[ht!]
 \centering
 \floatstyle{boxed}
@@ -172,7 +168,7 @@ Correlation Privacy is sort of a special case when it comes to the nature of the
 \caption{A user present in all data sets can be easily singled out with a simple interjection.}
 \label{fig:venn}
 \end{figure} 
-
+\pagebreak
 \section{Techniques for countering the privacy threats}
 
 As there are possible privacy threats in LBS so is there techniques designed to address and mitigate their severity. \cite{Jensen2009} classify different threat countering techniques into four classes.
@@ -180,15 +176,29 @@ As there are possible privacy threats in LBS so is there techniques designed to 
 \item \textbf{Query enlargement techniques} take the user's location and generalize it thus increasing the user's degree of anonymity. 
 \item \textbf{Dummy-based techniques} generate fake locations and send them along with the user's actual location effectively hiding their whereabouts among the dummies.
 \item \textbf{Progressive retrieval techniques} retrieve candidate query results iteratively from the server so that the user's exact location will not be revealed.
+\pagebreak
 \item \textbf{Transformation-based techniques} use cryptography to hide users' data, but provides users deciphering keys to decrypt the data they need. 
 \end{itemize}
 
 \subsection{Query Enlargement techniques}
 
-Query enlargement techniques rely on the notion, that when sending location data to the server, if included is other identities from the given location, the user sending the data can not be easily identified from among other identities. The idea was first formulated by Latanya Sweeney\cite{Sweeney:2002:KAM:774544.774552} and in her paper it is applied to traditional databases. We assume that the database is made of rows of entries which consist of columns of attributes. The purpose of k-anonymity is to have a database with at least \textit{k} occurrences of a certain attribute. When someone queries the database with these attributes they will get at least \textit{k} entries which correspond to the given query, but the query can not be used to find a specific row. In this manner the data of a single user is safe but the dataset as a whole can still be used meaningfully for statistical study. To achieve a database which satisfies k-anonymity, one must first identify the so-called \textit{Quasi-identifiers} which are usually non-unique attributes in the data set but can be used together with other quasi-identifiers to form unique identifiers. To make sure that the Quasi-identifiers cannot be used to identify single entries, they either have to be \textit{suppressed}, made less distinguishable by replacing the value or part of it with a wild card notation, or \textit{generalised} so that multiple values fall to a certain broader category. 
+Query enlargement techniques rely on the notion, that when sending location data to the server, if included is other identities from the given location, the user sending the data can not be easily identified from among other identities. The idea was first formulated by Latanya Sweeney\cite{Sweeney:2002:KAM:774544.774552} and in her paper it is applied to traditional databases. We assume that the database is made of rows of entries which consist of columns of attributes. The purpose of k-anonymity is to have a database with at least \textit{k} occurrences of a certain attribute. When someone queries the database with these attributes they will get at least \textit{k} entries which correspond to the given query, but the query can not be used to find a specific row. In this manner the data of a single user is safe but the dataset as a whole can still be used meaningfully for statistical study. To achieve a database which satisfies k-anonymity, one must first identify the so-called \textit{Quasi-identifiers} which are usually non-unique attributes in the data set but can be used together with other quasi-identifiers to form unique identifiers. To make sure that the Quasi-identifiers cannot be used to identify single entries, they either have to be \textit{suppressed}, made less distinguishable by replacing the value or part of it with a wild card notation, or \textit{generalised} so that multiple values fall to a certain broader category. Figure ~\ref{fig:kanonymity2} illustrates a small fictional anonymised database of medical records. The \textit{k} in the database is 2 which means that there are at least two of each entries with the same quasi-identifier.
+
+\begin{figure}[H]
+\centering
+\floatstyle{boxed}
+\includegraphics[width=120mm]{"kanonymity2".jpg}
+\caption{Example of k-anonymity, where k=2 and the quasi-identifier consists of \{Race, Birth, Gender, ZIP\}. Original figure: \cite{Sweeney:2002:KAM:774544.774552} }
+\label{fig:kanonymity2}
+\end{figure} 
+
+In LBS context k-anonymity for the users' identities is achieved by generalising the location in the user's query into the so-called \textit{Cloaking Range}. This is called \textit{Spatial Cloaking}. When user sends data to the server, along is sent data from other users so that the exact identity and location of the user cannot be distinguished among others \cite{Gedik2008}. To anonymise the location, an approach called \textit{Temporal Cloaking} can be used. In this approach the messages sent to the server are delayed until \textit{k} mobile users have visited the location and thus the temporal dimension of the data can not be used to identify the user.
+
+\subsection{Dummy-based techniques}
+
+Dummy-based techniques can be seen as the other side of the query expansion techniques. The general idea is to send the location data in a set made out of faked dummy locations, instead of multiple actual user identities and location data \cite{Kido2005}. The server then returns results for all of the locations, real and fakes as well, of which the user extracts the data associated with their real location. If this technique would be used on the case-by-case basis, the real location would be easily found as the fake location would seem to move erratically and irregularly whereas the real location would abide to real world constraints. To counter this Kido et al. provide two different ways to generate dummy locations. The first one called \textit{Moving in the neighbourhood} keeps the previous g iteration  
+
 \section{Evaluation of the techniques}
-
-
 
 
 % --- References ---

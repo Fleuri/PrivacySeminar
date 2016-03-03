@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.22)  3 MAR 2016 00:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.22)  3 MAR 2016 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -915,33 +915,33 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 122.
 
 
 ] (./Seminar.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 5.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 4.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 5.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 4.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 5.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 4.
+(Font)              <10.95> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -949,7 +949,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -960,31 +960,37 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \tf@toc=\write4
 \openout4 = `Seminar.toc'.
 
- [2
+ (./Seminar.lof)
+\tf@lof=\write5
+\openout5 = `Seminar.lof'.
+
+[2
 
 ] [1
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.146 
-       [1] [2] [3] <"venncorrelation".jpg, id=110, 2055.68pt x 2055.68pt>
+] [2] [3] <"venncorrelation".jpg, id=125, 2055.68pt x 2055.68pt>
 File: "venncorrelation".jpg Graphic file (type jpg)
 
 <use "venncorrelation".jpg>
-Package pdftex.def Info: "venncorrelation".jpg used on input line 170.
+Package pdftex.def Info: "venncorrelation".jpg used on input line 166.
 (pdftex.def)             Requested size: 256.0748pt x 256.04973pt.
- [4 <./venncorrelation.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 180.
+ [4]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 176.
 
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 180.
- [5] (./Seminar.bbl
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 176.
+
+[5 <./venncorrelation.jpg>]
+<"kanonymity2".jpg, id=141, 1228.59pt x 641.39626pt>
+File: "kanonymity2".jpg Graphic file (type jpg)
+ <use "kanonymity2".jpg>
+Package pdftex.def Info: "kanonymity2".jpg used on input line 190.
+(pdftex.def)             Requested size: 341.43306pt x 178.24892pt.
+
+[6] (./Seminar.bbl
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -996,8 +1002,9 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
+[7 <./kanonymity2.jpg>]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 36.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
@@ -1005,36 +1012,36 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 3439) in paragraph at lines 54--64
+Underfull \hbox (badness 3439) in paragraph at lines 65--75
 \T1/lmr/m/n/10.95 (+20) chap-ter Lo-ca-tion Pri-vacy Tech-niques in Client-Serv
 er Ar-chi-tec-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 54--64
+Underfull \hbox (badness 1117) in paragraph at lines 65--75
 \T1/lmr/m/n/10.95 (+20) tures, pages 31--58.  Springer Berlin Hei-del-berg, Ber
 lin, Hei-del-
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+[8])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
  (./Seminar.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `Seminar.out' has not changed.
-(rerunfilecheck)             Checksum: 11F10DBE11CA79FC5823270EDD584190;711.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
+(rerunfilecheck)             Checksum: 894B61703060831B0C2F48F9D90B55F9;835.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  ) 
 Here is how much of TeX's memory you used:
- 11294 strings out of 493304
- 170816 string characters out of 6139871
- 305061 words of memory out of 5000000
- 14410 multiletter control sequences out of 15000+600000
- 57276 words of font info for 92 fonts, out of 8000000 for 9000
+ 11335 strings out of 493304
+ 171321 string characters out of 6139871
+ 305303 words of memory out of 5000000
+ 14420 multiletter control sequences out of 15000+600000
+ 58352 words of font info for 101 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,8n,42p,1505b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,42p,1729b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publi
@@ -1043,10 +1050,10 @@ xmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
 
-Output written on Seminar.pdf (10 pages, 315367 bytes).
+Output written on Seminar.pdf (12 pages, 712771 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 16990 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 17011 words of extra memory for PDF output out of 17280 (max. 10000000)
 

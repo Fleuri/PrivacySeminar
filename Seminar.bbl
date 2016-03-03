@@ -35,6 +35,17 @@
 \newblock {\latintext
   \btxurlfont{http://dl.acm.org/citation.cfm?id=1924931.1924933}}.
 
+\bibitem {Gedik2008}
+\btxnamefont {\btxlastnamefont {Gedik}, Bu\u{g}ra} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Liu}, Ling}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Protecting location privacy with personalized k-anonymity:
+  Architecture and algorithms}{Protecting Location Privacy with Personalized
+  k-Anonymity: Architecture and Algorithms}}.
+\newblock \btxjournalfont {IEEE Transactions on Mobile Computing}, 7(1):1--18,
+  \btxprintmonthyear{.}{1}{2008}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {1536-1233}}}.
+\newblock {\latintext \btxurlfont{http://dx.doi.org/10.1109/TMC.2007.1062}}.
+
 \bibitem {Ghinita2008}
 \btxnamefont {\btxlastnamefont {Ghinita}, Gabriel}, \btxnamefont
   {\btxlastnamefont {Kalnis}, Panos}, \btxnamefont {\btxlastnamefont
@@ -61,6 +72,17 @@
   2009\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-3-642-03511-1}}}.
 \newblock {\latintext
   \btxurlfont{http://dx.doi.org/10.1007/978-3-642-03511-1_2}}.
+
+\bibitem {Kido2005}
+\btxnamefont {\btxlastnamefont {Kido}, H.}, \btxnamefont {\btxlastnamefont
+  {Yanagisawa}, Y.}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Satoh}, T.}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {An anonymous communication technique using dummies for
+  location-based services}{An anonymous communication technique using dummies
+  for location-based services}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Pervasive Services, 2005. ICPS '05.
+  Proceedings. International Conference on}, \btxpageslong {}\ 88--97,
+  \btxprintmonthyear{.}{July}{2005}{long}.
 
 \bibitem {Sweeney:2002:KAM:774544.774552}
 \btxnamefont {\btxlastnamefont {Sweeney}, Latanya}\btxauthorcolon\
