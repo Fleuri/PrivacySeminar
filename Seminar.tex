@@ -82,7 +82,8 @@
 \author{Lauri Suomalainen}
 \date{\today}
 \level{Seminar}
-\abstract{Abstract}
+\abstract{Most of the social networking services today exploit location-based data in one way or another. Services like Facebook allow users to GeoTag their current location and tag themselves and their friends. In exchange the service can use the data to offer recommendations, news and so on.  While the users of the services are often aware that they are providing personal locational data, its pervasiveness and accuracy may come as a surprise and have serious repercussions when it comes to users' real-life privacy. A malicious actor such as a burglar could exploit the data a user provides to for example find out their street address and times when they are not home.
+This seminar paper reviews and evaluates several techniques used to preserve and protect users' privacy when using Location-based services. The goal for the techniques is to counter several threats Location-based Services face in such manner that users can still use said services without compromising their security.}
 
 % The following can be used to specify keywords and classification of the paper:
 
@@ -224,14 +225,15 @@ Transformation-based Techniques maintain users' privacy by employing cryptograph
 \section{Evaluation of the techniques}
 
 Obviously different approaches work for different sort of LBS. When considering social LBS such as Facebook, that offer \textit{GeoTagging} and \textit{User Tagging} possibilities most of the threat vectors are applicable to them. Unlike the techniques presented in this paper, the solutions addressing threats are not likely to be as technical as other LBS would require, but more behavioural in nature. Simply educating users about the privacy threats and how users expose themselves would do much in preserving privacy. Some exposure is not in the user's own hands necessarily, such as user tagging and, but adding options to review tagging and possibility to either accept the tag or deny it would mitigate the chances for unwanted exposure. Social LBS could also use rules for the user to define the locations  or other users they do not want to be associated with. \cite{mascetti} propose a system which leverages on GPS and other location systems. In their system the user can set up \textit{Minimum Uncertainty Regions} (MUR) in which no information will be disclosed about the user. Basically the users accepts, that the possible adversary can know that they are located within a MUR they have set up, but the adversary cannot know where exactly in the said MUR the user resides. The system allows MURs to be set for the general case or for specific users. Of course, this kind of a technical would allow other technical solutions, such as the query enlargement techniques. \par
-When using k-anonymity in LBS context Gedik et al.\cite{Gedik2008} noted that the method achieved good success rates and level of anonymity while not incurring significant overheads to the performance. Though, as with all query enlargement techniques
+When using k-anonymity in LBS context Gedik et al.\cite{Gedik2008} noted that the method achieved good success rates and level of anonymity while not incurring significant overheads to the performance. Though, as with all query enlargement techniques, when applying spatial or temporal cloaking the Quality of Service (QoS) may degrade as the service or the user may require more precise position or can not tolerate delays. The authors also assume, that identities are anonymous in the LBS in which k-anonymity is applied and cast doubts on technique's applicability in LBS's which require true identity. However, they argue that applications which employ pseudonyms could benefit from k-anonymity. \cite{Ghinita2008} point out that query enlargement techniques are suspectible  to correlation attacks, if the queries are done in case-by-case basis. As the technique depends on hiding users own identity and location among other users of the LBS, it may not provide as large degree of anonymity as intended when there are no other users available or the lack of users may degrade LBS's QoS. \par
+Dummy-based techniques are applicable when querying for location data and the user does not want to reveal their exact location. The level of anonymity is proportional to the dummy-locations generated. The increased number of dummy locations comes with a trade-off in data transfer and performance, as the server has provide results for the real and dummy locations alike.
 
 \section{Conclusions}
 
 % --- References ---
 %
 % bibtex is used to generate the bibliography. The babplain style
-% will generate numeric references (e.g. [1]) appropriate for theoretical
+% will generate numeric rta eferences (e.g. [1]) appropriate for theoretical
 % computer science. If you need alphanumeric references (e.g [Tur90]), use
 %
 % \bibliographystyle{babalpha-lf}
