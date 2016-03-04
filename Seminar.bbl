@@ -73,6 +73,21 @@
 \newblock {\latintext
   \btxurlfont{http://dx.doi.org/10.1007/978-3-642-03511-1_2}}.
 
+\bibitem {Hilbert}
+\btxnamefont {\btxlastnamefont {Khoshgozaran}, Ali} \btxandlong {}\
+  \btxnamefont {\btxlastnamefont {Shahabi}, Cyrus}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Blind evaluation of nearest neighbor queries
+  using space transformation to preserve location privacy}{Blind Evaluation of
+  Nearest Neighbor Queries Using Space Transformation to Preserve Location
+  Privacy}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 10th International
+  Conference on Advances in Spatial and Temporal Databases}, SSTD'07,
+  \btxpageslong {}\ 239--257, Berlin, Heidelberg, 2007. \btxpublisherfont
+  {Springer-Verlag}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont
+  {978-3-540-73539-7}}}.
+\newblock {\latintext
+  \btxurlfont{http://dl.acm.org/citation.cfm?id=1784462.1784476}}.
+
 \bibitem {Kido2005}
 \btxnamefont {\btxlastnamefont {Kido}, H.}, \btxnamefont {\btxlastnamefont
   {Yanagisawa}, Y.}\btxandcomma {} \btxandlong {}\ \btxnamefont
@@ -99,6 +114,18 @@
 \newblock {\latintext
   \btxurlfont{http://doi.acm.org.libproxy.helsinki.fi/10.1145/1626536.1626540}}.
 
+\bibitem {mascetti}
+\btxnamefont {\btxlastnamefont {Mascetti}, Sergio}, \btxnamefont
+  {\btxlastnamefont {Freni}, Dario}, \btxnamefont {\btxlastnamefont {Bettini},
+  Claudio}, \btxnamefont {\btxlastnamefont {Wang}, Xiaoyang\btxfnamespacelong
+  Sean}\btxandcomma {} \btxandlong {}\ \btxnamefont {\btxlastnamefont
+  {Jajodia}, Sushil}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Privacy
+  in geo-social networks: proximity notification with untrusted service
+  providers and curious buddies}{Privacy in geo-social networks: proximity
+  notification with untrusted service providers and curious buddies}}.
+\newblock \btxjournalfont {CoRR}, abs/1007.0408, 2010.
+\newblock {\latintext \btxurlfont{http://arxiv.org/abs/1007.0408}}.
+
 \bibitem {Sweeney:2002:KAM:774544.774552}
 \btxnamefont {\btxlastnamefont {Sweeney}, Latanya}\btxauthorcolon\
   \btxjtitlefont {\btxifchangecase {K-anonymity: A model for protecting
@@ -108,6 +135,21 @@
   \mbox{\btxISSN~\btxISSNfont {0218-4885}}}.
 \newblock {\latintext
   \btxurlfont{http://dx.doi.org/10.1142/S0218488502001648}}.
+
+\bibitem {Um2010}
+\btxnamefont {\btxlastnamefont {Um}, Jung\btxfnamespacelong Ho}, \btxnamefont
+  {\btxlastnamefont {Kim}, Hee\btxfnamespacelong Dae}\btxandcomma {}
+  \btxandlong {}\ \btxnamefont {\btxlastnamefont {Chang}, Jae\btxfnamespacelong
+  Woo}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {An advanced cloaking
+  algorithm using hilbert curves for anonymous location based service}{An
+  Advanced Cloaking Algorithm Using Hilbert Curves for Anonymous Location Based
+  Service}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 2010 IEEE Second
+  International Conference on Social Computing}, SOCIALCOM '10, \btxpageslong
+  {}\ 1093--1098, Washington, DC, USA, 2010. \btxpublisherfont {IEEE Computer
+  Society}\ifbtxprintISBN {, \mbox{\btxISBN~\btxISBNfont {978-0-7695-4211-9}}}.
+\newblock {\latintext
+  \btxurlfont{http://dx.doi.org/10.1109/SocialCom.2010.162}}.
 
 \bibitem {LocationPrivacy}
 \btxnamefont {\btxlastnamefont {Vicente}, C.R.}, \btxnamefont {\btxlastnamefont

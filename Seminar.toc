@@ -11,8 +11,10 @@
 \contentsline {subsection}{\numberline {3.1}Query Enlargement techniques}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Dummy-based techniques}{7}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Progressive Retrieval Techniques}{8}{subsection.3.3}
-\contentsline {section}{\numberline {4}Evaluation of the techniques}{9}{section.4}
-\contentsline {section}{Sources}{9}{section*.7}
+\contentsline {subsection}{\numberline {3.4}Transformation-based Techniques}{9}{subsection.3.4}
+\contentsline {section}{\numberline {4}Evaluation of the techniques}{10}{section.4}
+\contentsline {section}{\numberline {5}Conclusions}{11}{section.5}
+\contentsline {section}{Sources}{11}{section*.7}
 \select@language {english}
 \select@language {english}
 \select@language {english}

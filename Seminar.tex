@@ -37,7 +37,8 @@
 \usepackage{float}
 \usepackage{rotating}
 \usepackage{textgreek}
-
+\usepackage{fixltx2e}
+\usepackage{url}
 % Automatically set the PDF metadata fields
 \makeatletter
 \AtBeginDocument{\hypersetup{pdftitle = {\@title}, pdfauthor = {\@author}}}
@@ -165,7 +166,7 @@ Correlation Privacy is sort of a special case when it comes to the nature of the
 \centering
 \floatstyle{boxed}
 \includegraphics[width=90mm]{"venncorrelation".jpg}
-\hbox{\scriptsize Credit:\thinspace{\small\itshape Kiia Pitkänen, used with permission}}
+\hbox{\scriptsize Credit:\thinspace{\small \itshape Kiia Pitkänen, used with permission}}
 \caption{A user present in all data sets can be easily singled out with a simple interjection.}
 \label{fig:venn}
 \end{figure} 
@@ -204,7 +205,9 @@ The caveat of these proposed generation algorithms is, that they do not take the
 
 Progressive Retrieval Techniques are based on the idea, that the user retrieves results incrementally from the server until certain criteria, such as the sought after value is guaranteed to be in the data set or the user simply terminating the query and possibly settling for an approximation or a 'good enough' result. In this manner the user can get a query results without exposing their real location. \par
 
-A prominent example of a progressive retrieval application is SpaceTwist \cite{SpaceTwist}. SpaceTwist is used to find \textit{k} nearest neighbours for the location \textit{q}. First the user generates a fake location \textit{q'} which is located somewhere in \textit{dist(q, q')} radius. The nearest neighbours are sought incrementally in a growing circle starting from the fake location. The algorithm maintains two numeric variables \textgamma \hspace{1mm} and \texttau. \textgamma \hspace{1mm} is used to store the distance between \textit{q} and its nearest neighbour point whereas \texttau \hspace{1mm} stores the distance between the the fake location \textit{q'} and the farthest retrieved point. The rationale for the two variables is that they are used to guarantee that the algorithm retrieves the actual \textit{k} nearest neighbours because the algorithm terminates when the condition \\ \textgamma \hspace{1mm} + \textit{dist(q, q')} \( \leq \) \texttau \hspace{1mm} is met.
+A prominent example of a progressive retrieval application is SpaceTwist \cite{SpaceTwist}. SpaceTwist is used to find \textit{k} nearest neighbours for the location \textit{q}. First the user generates a fake location \textit{q'} which is located somewhere in \textit{dist(q, q')} radius. The nearest neighbours are sought incrementally in a growing circle starting from the fake location. The algorithm maintains two numeric variables \textgamma \hspace{1mm} and \texttau. \textgamma \hspace{1mm} is used to store the distance between \textit{q} and its nearest neighbour point whereas \texttau \hspace{1mm} stores the distance between the the fake location \textit{q'} and the farthest retrieved point. The rationale for the two variables is that they are used to guarantee that the algorithm retrieves the actual \textit{k} nearest neighbours because the algorithm terminates when the condition \\ \textgamma \hspace{1mm} + \textit{dist(q, q')} \( \leq \) \texttau \hspace{1mm} is met. \par 
+
+Figure ~\ref{fig:SpaceTwist} depicts the situation of the SpaceTwist algorithm after three iterations. The neighbours \textit{p} are in order they have been found. The algorithm would stop after finding the third \textit{p} as the distance between \textit{q'} and \textit{p\textsubscript{3}}, \texttau, is larger than the sum of \textit{dist(q, q')} and \textit{dist(q, p\textsubscript{2})}, denoted by \textgamma.
 
 \begin{figure}[ht!]
 \centering
@@ -214,8 +217,16 @@ A prominent example of a progressive retrieval application is SpaceTwist \cite{S
 \label{fig:SpaceTwist}
 \end{figure} 
 
+\subsection{Transformation-based Techniques}
+
+Transformation-based Techniques maintain users' privacy by employing cryptographic functions. For example \cite{Hilbert} and \cite{Um2010} use Hilbert Curves to reduce the two-dimensional presentation of area to one-dimensional sequence of values which can then be encrypted with some encryption key and sent to server.  When the user queries for location, they transform their own location to a Hilbert value and the server returns the requested number of Hilbert values closest to the argument value. The user can then do the transformation inversely to decode the actual location data from the value. Another prominent example is Private Information Retrieval (PIR) by Ghinita et al.\cite{Ghinita2008}. PIR partitions the domain space to a grid and with every cell containing a bitmap presenting the points of interest in that cell. The bitmap is then used with random generated numbers for columns to perform modulo arithmetic which results in the quadratic residue for the corresponding cell and non-quadratic residue for others. The user can then easily find the number corresponding the the row their location resides to retrieve other near locations whereas it is computationally overwhelmingly inefficient for the adversary to do.	
+
 \section{Evaluation of the techniques}
 
+Obviously different approaches work for different sort of LBS. When considering social LBS such as Facebook, that offer \textit{GeoTagging} and \textit{User Tagging} possibilities most of the threat vectors are applicable to them. Unlike the techniques presented in this paper, the solutions addressing threats are not likely to be as technical as other LBS would require, but more behavioural in nature. Simply educating users about the privacy threats and how users expose themselves would do much in preserving privacy. Some exposure is not in the user's own hands necessarily, such as user tagging and, but adding options to review tagging and possibility to either accept the tag or deny it would mitigate the chances for unwanted exposure. Social LBS could also use rules for the user to define the locations  or other users they do not want to be associated with. \cite{mascetti} propose a system which leverages on GPS and other location systems. In their system the user can set up \textit{Minimum Uncertainty Regions} (MUR) in which no information will be disclosed about the user. Basically the users accepts, that the possible adversary can know that they are located within a MUR they have set up, but the adversary cannot know where exactly in the said MUR the user resides. The system allows MURs to be set for the general case or for specific users. Of course, this kind of a technical would allow other technical solutions, such as the query enlargement techniques. \par
+When using k-anonymity in LBS context Gedik et al.\cite{Gedik2008} noted that the method achieved good success rates and level of anonymity while not incurring significant overheads to the performance. Though, as with all query enlargement techniques
+
+\section{Conclusions}
 
 % --- References ---
 %
