@@ -1,16 +1,11 @@
 \BOOKMARK [1][-]{section*.2}{List of Figures}{}% 1
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 2
 \BOOKMARK [1][-]{section.2}{Threats in Location-based Services}{}% 3
-\BOOKMARK [2][-]{subsection.2.1}{Location Privacy}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.2}{Absence Privacy}{section.2}% 5
-\BOOKMARK [2][-]{subsection.2.3}{Co-location Privacy}{section.2}% 6
-\BOOKMARK [2][-]{subsection.2.4}{Identity Privacy}{section.2}% 7
-\BOOKMARK [2][-]{subsection.2.5}{Correlation Privacy}{section.2}% 8
-\BOOKMARK [1][-]{section.3}{Techniques for countering the privacy threats}{}% 9
-\BOOKMARK [2][-]{subsection.3.1}{Query Enlargement techniques}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.2}{Dummy-based techniques}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.3}{Progressive Retrieval Techniques}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.4}{Transformation-based Techniques}{section.3}% 13
-\BOOKMARK [1][-]{section.4}{Evaluation of the techniques}{}% 14
-\BOOKMARK [1][-]{section.5}{Conclusions}{}% 15
-\BOOKMARK [1][-]{section*.7}{Sources}{}% 16
+\BOOKMARK [1][-]{section.3}{Techniques for countering the privacy threats}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Query Enlargement techniques}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Dummy-based techniques}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Progressive Retrieval Techniques}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{Transformation-based Techniques}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Evaluation of the techniques}{}% 9
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 10
+\BOOKMARK [1][-]{section*.7}{Sources}{}% 11

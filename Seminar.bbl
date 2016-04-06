@@ -13,6 +13,14 @@
   \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
 
 \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {Barkhuus2003}
+\btxnamefont {\btxlastnamefont {Barkhuus}, Louise} \btxandlong {}\ \btxnamefont
+  {\btxlastnamefont {Dey}, Anind\btxfnamespacelong K.}\btxauthorcolon\
+  \btxtitlefont {\btxifchangecase {Location-based services for mobile
+  telephony: a study of users' privacy concerns}{Location-Based Services for
+  Mobile Telephony: a Study of Users' Privacy Concerns}}.
+\newblock \Btxinlong {}\ \btxtitlefont {INTERACT}, 2003.
+
 \bibitem {History}
 \btxnamefont {\btxlastnamefont {Bellavista}, P.}, \btxnamefont
   {\btxlastnamefont {Kupper}, A.}\btxandcomma {} \btxandlong {}\ \btxnamefont
@@ -98,6 +106,15 @@
 \newblock \Btxinlong {}\ \btxtitlefont {Pervasive Services, 2005. ICPS '05.
   Proceedings. International Conference on}, \btxpageslong {}\ 88--97,
   \btxprintmonthyear{.}{July}{2005}{long}.
+
+\bibitem {Krumm2008}
+\btxnamefont {\btxlastnamefont {Krumm}, John}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {{A survey of computational location privacy}}{{A survey of
+  computational location privacy}}}.
+\newblock \btxjournalfont {Personal and Ubiquitous Computing}, 13(6):391–399,
+  2008\ifbtxprintISSN {, \mbox{\btxISSN~\btxISSNfont {1617-4917}}}.
+\newblock {\latintext
+  \btxurlfont{http://dx.doi.org/10.1007/s00779-008-0212-5}}.
 
 \bibitem {Lu2008}
 \btxnamefont {\btxlastnamefont {Lu}, Hua}, \btxnamefont {\btxlastnamefont
