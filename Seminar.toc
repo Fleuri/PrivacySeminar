@@ -1,15 +1,14 @@
 \select@language {english}
-\contentsline {section}{List of Figures}{ii}{section*.2}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {section}{\numberline {2}Threats in Location-based Services}{2}{section.2}
 \contentsline {section}{\numberline {3}Techniques for countering the privacy threats}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Query Enlargement techniques}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Dummy-based techniques}{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Progressive Retrieval Techniques}{9}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Transformation-based Techniques}{10}{subsection.3.4}
-\contentsline {section}{\numberline {4}Evaluation of the techniques}{11}{section.4}
-\contentsline {section}{\numberline {5}Conclusions}{13}{section.5}
-\contentsline {section}{Sources}{13}{section*.7}
+\contentsline {subsection}{\numberline {3.1}Query Enlargement techniques}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Dummy-based techniques}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Progressive Retrieval Techniques}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Transformation-based Techniques}{9}{subsection.3.4}
+\contentsline {section}{\numberline {4}Evaluation of the techniques}{10}{section.4}
+\contentsline {section}{\numberline {5}Conclusions}{12}{section.5}
+\contentsline {section}{Sources}{12}{section*.6}
 \select@language {english}
 \select@language {english}
 \select@language {english}
