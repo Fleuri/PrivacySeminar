@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.12)  6 APR 2016 16:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.22)  10 APR 2016 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1348,42 +1348,42 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ] [1
 
-] [2] [3] <"venncorrelation".jpg, id=121, 2055.68pt x 2055.68pt>
+] [2] [3] <"venncorrelation".jpg, id=123, 2055.68pt x 2055.68pt>
 File: "venncorrelation".jpg Graphic file (type jpg)
 
 <use "venncorrelation".jpg>
 Package pdftex.def Info: "venncorrelation".jpg used on input line 165.
 (pdftex.def)             Requested size: 256.0748pt x 256.04973pt.
  [4]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 175.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 180.
 
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 175.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 180.
 
-[5 <./venncorrelation.jpg>]
-<"kanonymity2".jpg, id=137, 1228.59pt x 641.39626pt>
+[5 <./venncorrelation.jpg>] [6]
+<"kanonymity2".jpg, id=146, 1228.59pt x 641.39626pt>
 File: "kanonymity2".jpg Graphic file (type jpg)
  <use "kanonymity2".jpg>
-Package pdftex.def Info: "kanonymity2".jpg used on input line 189.
+Package pdftex.def Info: "kanonymity2".jpg used on input line 194.
 (pdftex.def)             Requested size: 341.43306pt x 178.24892pt.
 
-[6] [7 <./kanonymity2.jpg>]
-LaTeX Font Info:    Try loading font information for LGR+lmr on input line 205.
+[7] [8 <./kanonymity2.jpg>]
+LaTeX Font Info:    Try loading font information for LGR+lmr on input line 210.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrlmr.fd
 File: lgrlmr.fd 2013/09/01 v1.0 Greek Latin Modern Regular
-) [8]
-<"SpaceTwist".jpg, id=165, 90.3375pt x 81.6651pt>
+) [9]
+<"SpaceTwist".jpg, id=174, 90.3375pt x 81.6651pt>
 File: "SpaceTwist".jpg Graphic file (type jpg)
  <use "SpaceTwist".jpg>
-Package pdftex.def Info: "SpaceTwist".jpg used on input line 212.
+Package pdftex.def Info: "SpaceTwist".jpg used on input line 217.
 (pdftex.def)             Requested size: 256.0748pt x 231.55414pt.
 
-[9 <./SpaceTwist.jpg>] [10] [11] (./Seminar.bbl
+[10 <./SpaceTwist.jpg>] [11] [12] (./Seminar.bbl
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1395,7 +1395,7 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 44.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 46.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1403,28 +1403,28 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [12]
-Underfull \hbox (badness 2088) in paragraph at lines 73--83
+ [13]
+Underfull \hbox (badness 2088) in paragraph at lines 87--97
 \T1/lmr/m/n/10.95 (+20) chap-ter Lo-ca-tion Pri-vacy Tech-niques in Client-Serv
 er Ar-chi-tec-
  []
 
-[13])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+[14])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (./Seminar.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `Seminar.out' has not changed.
 (rerunfilecheck)             Checksum: 026F8106576525AFDEFFDAA04B603E4E;710.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 258.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
- 12527 strings out of 493304
- 191070 string characters out of 6139871
- 316355 words of memory out of 5000000
- 15548 multiletter control sequences out of 15000+600000
+ 12530 strings out of 493304
+ 191106 string characters out of 6139871
+ 315390 words of memory out of 5000000
+ 15549 multiletter control sequences out of 15000+600000
  64473 words of font info for 116 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,8n,42p,1729b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1437,10 +1437,10 @@ s/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Seminar.pdf (17 pages, 773278 bytes).
+Output written on Seminar.pdf (18 pages, 775570 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 287 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
  17512 words of extra memory for PDF output out of 20736 (max. 10000000)
 

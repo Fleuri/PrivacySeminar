@@ -5,46 +5,47 @@ The style file: babplain-lf.bst
 Database file #1: references-en.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in Barkhuus2003
+Warning--empty booktitle in Bettini2009
 Warning--can't use both author and editor fields in Jensen2009
-You've used 15 entries,
+You've used 16 entries,
             2783 wiz_defined-function locations,
-            770 strings with 9922 characters,
-and the built_in function-call counts, 7516 in all, are:
-= -- 696
-> -- 258
-< -- 9
-+ -- 103
-- -- 86
-* -- 837
-:= -- 1022
-add.period$ -- 45
-call.type$ -- 15
-change.case$ -- 87
+            778 strings with 10202 characters,
+and the built_in function-call counts, 8152 in all, are:
+= -- 752
+> -- 286
+< -- 11
++ -- 114
+- -- 96
+* -- 917
+:= -- 1106
+add.period$ -- 49
+call.type$ -- 16
+change.case$ -- 95
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 394
-empty$ -- 690
-format.name$ -- 142
-if$ -- 1627
+cite$ -- 19
+duplicate$ -- 428
+empty$ -- 745
+format.name$ -- 158
+if$ -- 1762
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 22
-newline$ -- 86
-num.names$ -- 30
-pop$ -- 102
+int.to.str$ -- 16
+missing$ -- 23
+newline$ -- 91
+num.names$ -- 32
+pop$ -- 113
 preamble$ -- 1
-purify$ -- 73
+purify$ -- 80
 quote$ -- 0
-skip$ -- 223
+skip$ -- 237
 stack$ -- 0
-substring$ -- 391
-swap$ -- 190
-text.length$ -- 9
+substring$ -- 415
+swap$ -- 208
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 58
-warning$ -- 2
-while$ -- 59
-width$ -- 17
-write$ -- 210
-(There were 2 warnings)
+type$ -- 62
+warning$ -- 3
+while$ -- 64
+width$ -- 18
+write$ -- 224
+(There were 3 warnings)

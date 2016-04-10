@@ -31,6 +31,20 @@
   \btxprintmonthyear{.}{April}{2008}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {1536-1268}}}.
 
+\bibitem {Bettini2009}
+\btxnamefont {\btxlastnamefont {Bettini}, Claudio}, \btxnamefont
+  {\btxlastnamefont {Mascetti}, Sergio}, \btxnamefont {\btxlastnamefont {Wang},
+  X.\btxfnamespacelong Sean}, \btxnamefont {\btxlastnamefont {Freni},
+  Dario}\btxandcomma {} \btxandlong {}\ \btxnamefont {\btxlastnamefont
+  {Jajodia}, Sushil}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Privacy
+  in location-based applications}{Privacy in Location-Based Applications}}.
+\newblock \btxchapterlong {}\ Anonymity and Historical-Anonymity in
+  Location-Based Services, \btxpageslong {}\ 1--30. \btxpublisherfont
+  {Springer-Verlag}, Berlin, Heidelberg, 2009\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {978-3-642-03510-4}}}.
+\newblock {\latintext
+  \btxurlfont{http://dx.doi.org/10.1007/978-3-642-03511-1_1}}.
+
 \bibitem {Friedland2010}
 \btxnamefont {\btxlastnamefont {Friedland}, Gerald} \btxandlong {}\
   \btxnamefont {\btxlastnamefont {Sommer}, Robin}\btxauthorcolon\ \btxtitlefont
